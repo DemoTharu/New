@@ -11,6 +11,11 @@ table{
     text-align: center;
     border-collapse: collapse;
 }
+@media only screen and (max-width: 600px) {
+    table{
+        margin: 5vh 0vh 5vh 4vh;
+    }
+  }
 tr,td{
     padding: 10px;
     border: 1px solid black;
@@ -39,9 +44,4 @@ input[type='number']{
     outline: none;
     border: none;
     text-align: center;
-}
-@media only screen and (max-width: 600px){
-    table{
-        margin: 5vh 0vh 5vh 3.5vh;
-    }
 }
